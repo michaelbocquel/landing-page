@@ -1,0 +1,38 @@
+:root {
+
+	--white: #f9faf8;
+	--fadedwhite: #e5e7eb;
+	--blue: #3882f6;
+	--gray: #1f2937;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--gray);
+}
+
+.header-logo {
+	margin: 0 auto 0 50px;
+	font-size: 24px;
+	color: var(--white);
+}
+
+.header-link {
+	font-size: 18px;
+	color: var(--fadedwhite);
+}
+
+.header p {
+	padding: 40px 20px;
+}
+
+.header p:last-child {
+	margin-right: 50px;
+}
