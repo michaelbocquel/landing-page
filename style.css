@@ -12,6 +12,12 @@
 	box-sizing: border-box;
 }
 
+/*
+	--------------------
+	|	HEADER         |
+	--------------------
+*/
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -37,6 +43,12 @@
 .header p:last-child {
 	margin-right: 200px;
 }
+
+/*
+	--------------------
+	|	HERO           |           
+	--------------------
+*/
 
 .hero {
 	background-color: var(--gray);
@@ -87,6 +99,12 @@
 	padding-bottom: 50px;
 }
 
+/*
+	--------------------
+	|	INFO           |
+	--------------------
+*/
+
 .info {
 	padding: 30px 0 50px;
 }
@@ -122,6 +140,12 @@
 	font-size: 18px;
 }
 
+/*
+	--------------------
+	|	QUOTE          |
+	--------------------
+*/
+
 .quote {
 	background-color: var(--fadedwhite);
 	padding: 100px 500px;
@@ -140,4 +164,63 @@
 	font-weight: bolder;
 	color: var(--gray);
 	text-align: right;
+}
+
+/*
+	--------------------
+	|	CTA            |
+	--------------------
+*/
+
+.cta {
+	display: flex;
+	background-color: var(--blue);
+	margin: 50px 400px;
+	border-radius: 20px;
+	padding: 50px;
+}
+
+.cta-text-container {
+	width: 50%;
+}
+
+.cta-title {
+	color: var(--white);
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+.cta-description {
+	color: var(--fadedwhite);
+	font-size: 18px;
+}
+
+.cta-button-container {
+	width: 50%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.cta-button {
+	background-color: var(--blue);
+	border: 3px solid var(--white);
+	color: white;
+	font-size: 18px;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+/*
+	--------------------
+	|	FOOTER         |
+	--------------------
+*/
+
+.footer {
+	background-color: var(--gray);
+	text-align: center;
+	color: var(--white);
+	font-size: 20px;
+	padding: 20px 0;
 }
