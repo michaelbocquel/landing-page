@@ -19,7 +19,7 @@
 }
 
 .header-logo {
-	margin: 0 auto 0 50px;
+	margin: 0 auto 0 200px;
 	font-size: 24px;
 	color: var(--white);
 }
@@ -27,12 +27,62 @@
 .header-link {
 	font-size: 18px;
 	color: var(--fadedwhite);
+	margin-left: 30px;
 }
 
 .header p {
-	padding: 40px 20px;
+	padding: 40px 0;
 }
 
 .header p:last-child {
-	margin-right: 50px;
+	margin-right: 200px;
+}
+
+.hero {
+	background-color: var(--gray);
+	display: flex;
+	padding: 40px 0 100px;
+}
+
+.hero-main {
+	margin-left: 200px;
+	width: calc(50% - 200px);
+	padding: 0 150px 0 0;
+}
+
+.hero-title {
+	font-size: 48px;
+	font-weight: bold;
+	color: var(--white);
+}
+
+.hero-description {
+	font-size: 18px;
+	color: var(--fadedwhite);
+}
+
+.hero-button {
+	background-color: var(--blue);
+	font-size: 18px;
+	color: var(--white);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+}
+
+.hero-placeholder {
+	background-color: gray;
+	width: calc(50% - 200px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-placeholder-text {
+	font-size: 18px;
+	color: var(--fadedwhite);
+}
+
+.hero-main p {
+	padding-bottom: 50px;
 }
